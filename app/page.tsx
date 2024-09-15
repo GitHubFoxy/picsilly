@@ -6,34 +6,32 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
-      <header className="flex items-center justify-between p-4 bg-white shadow-sm">
-        <div className="flex items-center space-x-4">
-          <span className="text-2xl font-bold">Logo</span>
-          <nav>
-            <ul className="flex space-x-4">
-              <li>
-                <Link href="#" className="text-gray-600 hover:text-gray-900">
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-gray-600 hover:text-gray-900">
-                  Features
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-gray-600 hover:text-gray-900">
-                  Pricing
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-gray-600 hover:text-gray-900">
-                  About
-                </Link>
-              </li>
-            </ul>
-          </nav>
-        </div>
+      <header className="flex items-center justify-between p-4 bg-white shadow-sm space-x-4">
+        <span className="text-2xl font-bold">Logo</span>
+        <nav>
+          <ul className="flex space-x-4">
+            <li>
+              <Link href="#" className="text-gray-600 hover:text-gray-900">
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link href="#" className="text-gray-600 hover:text-gray-900">
+                Features
+              </Link>
+            </li>
+            <li>
+              <Link href="#" className="text-gray-600 hover:text-gray-900">
+                Pricing
+              </Link>
+            </li>
+            <li>
+              <Link href="#" className="text-gray-600 hover:text-gray-900">
+                About
+              </Link>
+            </li>
+          </ul>
+        </nav>
         <div>
           <Button variant="outline" className="mr-2">
             Log In
